@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23BCEDF22A886F1D003AD99F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23BCEDF12A886F1D003AD99F /* main.cpp */; };
+		23B21B822A89093100F6A4DB /* Foward_list1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B21B812A89093100F6A4DB /* Foward_list1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		230F7AC82A887A6E00298360 /* 1000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000.cpp; sourceTree = "<group>"; };
+		230F7ACB2A8880B400298360 /* 1001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1001.cpp; sourceTree = "<group>"; };
+		230F7ACD2A88810D00298360 /* 10998.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10998.cpp; sourceTree = "<group>"; };
+		230F7ACF2A88816000298360 /* 1008.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1008.cpp; sourceTree = "<group>"; };
+		230F7AD12A8882B600298360 /* 10869.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10869.cpp; sourceTree = "<group>"; };
+		230F7AD52A88892500298360 /* 10926.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10926.cpp; sourceTree = "<group>"; };
+		230F7AD72A888B6300298360 /* 18108.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 18108.cpp; sourceTree = "<group>"; };
+		230F7AD92A888DB200298360 /* 10430.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10430.cpp; sourceTree = "<group>"; };
+		230F7ADB2A888EE100298360 /* 2588.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2588.cpp; sourceTree = "<group>"; };
+		230F7ADD2A8893CB00298360 /* 11382.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11382.cpp; sourceTree = "<group>"; };
+		230F7ADF2A8894D800298360 /* 10171.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10171.cpp; sourceTree = "<group>"; };
+		230F7AE12A8895E400298360 /* 10172.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10172.cpp; sourceTree = "<group>"; };
+		230F7AE42A88976D00298360 /* 1330.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1330.cpp; sourceTree = "<group>"; };
+		230F7AE62A8899CA00298360 /* 9498.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9498.cpp; sourceTree = "<group>"; };
+		230F7AE82A889D7500298360 /* 2753.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2753.cpp; sourceTree = "<group>"; };
+		230F7AEB2A889E9100298360 /* 14681.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14681.cpp; sourceTree = "<group>"; };
+		230F7AED2A88A01A00298360 /* 2884.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2884.cpp; sourceTree = "<group>"; };
+		230F7AEF2A88A2B400298360 /* 2525.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2525.cpp; sourceTree = "<group>"; };
+		230F7AF12A88A61000298360 /* 2480.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2480.cpp; sourceTree = "<group>"; };
+		230F7AF42A88AB7A00298360 /* 2739.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2739.cpp; sourceTree = "<group>"; };
+		230F7AF62A88B0E300298360 /* 10950.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10950.cpp; sourceTree = "<group>"; };
+		23B21B7F2A89016300F6A4DB /* list1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list1.cpp; sourceTree = "<group>"; };
+		23B21B812A89093100F6A4DB /* Foward_list1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Foward_list1.cpp; sourceTree = "<group>"; };
 		23BCEDEE2A886F1D003AD99F /* code_master */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code_master; sourceTree = BUILT_PRODUCTS_DIR; };
-		23BCEDF12A886F1D003AD99F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		23E965292A887845007278A5 /* 2557.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2557.cpp; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +61,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230F7AE32A88975600298360 /* 조건문 */ = {
+			isa = PBXGroup;
+			children = (
+				230F7AE42A88976D00298360 /* 1330.cpp */,
+				230F7AE62A8899CA00298360 /* 9498.cpp */,
+				230F7AE82A889D7500298360 /* 2753.cpp */,
+				230F7AEB2A889E9100298360 /* 14681.cpp */,
+				230F7AED2A88A01A00298360 /* 2884.cpp */,
+				230F7AEF2A88A2B400298360 /* 2525.cpp */,
+				230F7AF12A88A61000298360 /* 2480.cpp */,
+			);
+			name = "조건문";
+			path = "조건문";
+			sourceTree = "<group>";
+		};
+		230F7AF32A88AB2F00298360 /* 반복문 */ = {
+			isa = PBXGroup;
+			children = (
+				230F7AF42A88AB7A00298360 /* 2739.cpp */,
+				230F7AF62A88B0E300298360 /* 10950.cpp */,
+			);
+			name = "반복문";
+			path = "반복문";
+			sourceTree = "<group>";
+		};
+		23B21B7D2A89011D00F6A4DB /* 자료구조와 알고리즘 */ = {
+			isa = PBXGroup;
+			children = (
+				23B21B7E2A89014000F6A4DB /* 리스트 */,
+			);
+			name = "자료구조와 알고리즘";
+			path = "자료구조와 알고리즘";
+			sourceTree = "<group>";
+		};
+		23B21B7E2A89014000F6A4DB /* 리스트 */ = {
+			isa = PBXGroup;
+			children = (
+				23B21B7F2A89016300F6A4DB /* list1.cpp */,
+				23B21B812A89093100F6A4DB /* Foward_list1.cpp */,
+			);
+			name = "리스트";
+			path = "리스트";
+			sourceTree = "<group>";
+		};
 		23BCEDE52A886F1D003AD99F = {
 			isa = PBXGroup;
 			children = (
+				23B21B7D2A89011D00F6A4DB /* 자료구조와 알고리즘 */,
 				23BCEDF02A886F1D003AD99F /* code_master */,
 				23BCEDEF2A886F1D003AD99F /* Products */,
 			);
@@ -57,9 +125,32 @@
 		23BCEDF02A886F1D003AD99F /* code_master */ = {
 			isa = PBXGroup;
 			children = (
-				23BCEDF12A886F1D003AD99F /* main.cpp */,
+				230F7AF32A88AB2F00298360 /* 반복문 */,
+				230F7AE32A88975600298360 /* 조건문 */,
+				23E965282A88780F007278A5 /* 입출력과 사칙연산 */,
 			);
 			path = code_master;
+			sourceTree = "<group>";
+		};
+		23E965282A88780F007278A5 /* 입출력과 사칙연산 */ = {
+			isa = PBXGroup;
+			children = (
+				23E965292A887845007278A5 /* 2557.cpp */,
+				230F7AC82A887A6E00298360 /* 1000.cpp */,
+				230F7ACB2A8880B400298360 /* 1001.cpp */,
+				230F7ACD2A88810D00298360 /* 10998.cpp */,
+				230F7ACF2A88816000298360 /* 1008.cpp */,
+				230F7AD12A8882B600298360 /* 10869.cpp */,
+				230F7AD52A88892500298360 /* 10926.cpp */,
+				230F7AD72A888B6300298360 /* 18108.cpp */,
+				230F7AD92A888DB200298360 /* 10430.cpp */,
+				230F7ADB2A888EE100298360 /* 2588.cpp */,
+				230F7ADD2A8893CB00298360 /* 11382.cpp */,
+				230F7ADF2A8894D800298360 /* 10171.cpp */,
+				230F7AE12A8895E400298360 /* 10172.cpp */,
+			);
+			name = "입출력과 사칙연산";
+			path = "입출력과 사칙연산";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23BCEDF22A886F1D003AD99F /* main.cpp in Sources */,
+				23B21B822A89093100F6A4DB /* Foward_list1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
