@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23918B372A8B8D10008A5BF8 /* 10818.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23918B362A8B8D10008A5BF8 /* 10818.cpp */; };
+		232215372A8BC6C700543BFA /* stack2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 232215362A8BC6C700543BFA /* stack2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +44,8 @@
 		230F7AF12A88A61000298360 /* 2480.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2480.cpp; sourceTree = "<group>"; };
 		230F7AF42A88AB7A00298360 /* 2739.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2739.cpp; sourceTree = "<group>"; };
 		230F7AF62A88B0E300298360 /* 10950.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10950.cpp; sourceTree = "<group>"; };
+		232215342A8BC1E700543BFA /* stack1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack1.cpp; sourceTree = "<group>"; };
+		232215362A8BC6C700543BFA /* stack2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack2.cpp; sourceTree = "<group>"; };
 		23440C692A8B683C007EDDD4 /* 8393.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8393.cpp; sourceTree = "<group>"; };
 		23440C6B2A8B6969007EDDD4 /* 25304.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 25304.cpp; sourceTree = "<group>"; };
 		23440C6D2A8B6B76007EDDD4 /* 25314.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 25314.cpp; sourceTree = "<group>"; };
@@ -109,6 +111,16 @@
 			path = "반복문";
 			sourceTree = "<group>";
 		};
+		232215332A8BC1D200543BFA /* 스택 */ = {
+			isa = PBXGroup;
+			children = (
+				232215342A8BC1E700543BFA /* stack1.cpp */,
+				232215362A8BC6C700543BFA /* stack2.cpp */,
+			);
+			name = "스택";
+			path = "스택";
+			sourceTree = "<group>";
+		};
 		23918B312A8B88E4008A5BF8 /* 1차원 배열 */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		23B21B7D2A89011D00F6A4DB /* 자료구조와 알고리즘 */ = {
 			isa = PBXGroup;
 			children = (
+				232215332A8BC1D200543BFA /* 스택 */,
 				23B21B7E2A89014000F6A4DB /* 리스트 */,
 			);
 			name = "자료구조와 알고리즘";
@@ -245,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23918B372A8B8D10008A5BF8 /* 10818.cpp in Sources */,
+				232215372A8BC6C700543BFA /* stack2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
