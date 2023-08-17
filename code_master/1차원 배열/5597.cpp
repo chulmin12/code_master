@@ -1,14 +1,19 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
 int main()
 {
     int number;
-    vector<int> student;
-    for (int i = 1; i <= 30; i++){
-        student.push_back(i);
+    int student[31] = {0};
+    for (int i = 1; i <= 28; i++){
+        cin >> number;
+        student[i] = number;
+    }
+    
+    for (int i = 1; i <=30; i++){
+        if (!student[i]){
+            cout << i << endl;
+        }
     }
 }
-// 수정 필요함

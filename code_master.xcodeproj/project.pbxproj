@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		236F52692A8D0B140056A196 /* reverse1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 236F52682A8D09F60056A196 /* reverse1.cpp */; };
+		23B138CA2A8E551D00EA73F5 /* paren_check.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23B138C92A8E551B00EA73F5 /* paren_check.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +65,7 @@
 		23918B322A8B88FB008A5BF8 /* 10807.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10807.cpp; sourceTree = "<group>"; };
 		23918B342A8B8ABB008A5BF8 /* 10871.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10871.cpp; sourceTree = "<group>"; };
 		23918B362A8B8D10008A5BF8 /* 10818.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10818.cpp; sourceTree = "<group>"; };
+		23B138C92A8E551B00EA73F5 /* paren_check.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = paren_check.cpp; sourceTree = "<group>"; };
 		23B21B7F2A89016300F6A4DB /* list1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list1.cpp; sourceTree = "<group>"; };
 		23B21B812A89093100F6A4DB /* Foward_list1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Foward_list1.cpp; sourceTree = "<group>"; };
 		23BCEDEE2A886F1D003AD99F /* code_master */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code_master; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +125,7 @@
 				232215362A8BC6C700543BFA /* stack2.cpp */,
 				236F52642A8D04970056A196 /* reverse.cpp */,
 				236F52682A8D09F60056A196 /* reverse1.cpp */,
+				23B138C92A8E551B00EA73F5 /* paren_check.cpp */,
 			);
 			name = "스택";
 			path = "스택";
@@ -270,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236F52692A8D0B140056A196 /* reverse1.cpp in Sources */,
+				23B138CA2A8E551D00EA73F5 /* paren_check.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
