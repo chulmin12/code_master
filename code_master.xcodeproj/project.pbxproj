@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		239046092A97937100FCAF04 /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239046082A97937100FCAF04 /* quick_sort.cpp */; };
+		2308679A2A98F189001A98C6 /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230867992A98F188001A98C6 /* sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		230867992A98F188001A98C6 /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
 		230F7AC82A887A6E00298360 /* 1000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1000.cpp; sourceTree = "<group>"; };
 		230F7ACB2A8880B400298360 /* 1001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1001.cpp; sourceTree = "<group>"; };
 		230F7ACD2A88810D00298360 /* 10998.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10998.cpp; sourceTree = "<group>"; };
@@ -168,6 +169,7 @@
 				239046042A97826F00FCAF04 /* basic_sort.cpp */,
 				239046062A978BE500FCAF04 /* merge.cpp */,
 				239046082A97937100FCAF04 /* quick_sort.cpp */,
+				230867992A98F188001A98C6 /* sort.cpp */,
 			);
 			name = "정렬";
 			path = "정렬";
@@ -331,7 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239046092A97937100FCAF04 /* quick_sort.cpp in Sources */,
+				2308679A2A98F189001A98C6 /* sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
