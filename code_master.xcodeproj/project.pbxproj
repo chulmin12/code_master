@@ -103,6 +103,9 @@
 		23B7641B2AA3078900A2D612 /* 10809.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10809.cpp; sourceTree = "<group>"; };
 		23B7B8922AA2F50600C7B137 /* triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
 		23BCEDEE2A886F1D003AD99F /* code_master */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code_master; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C0FD4F2AA35EB600DDEDED /* 2675.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2675.cpp; sourceTree = "<group>"; };
+		23C0FD512AA3646D00DDEDED /* 1152.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1152.cpp; sourceTree = "<group>"; };
+		23C0FD532AA36AB500DDEDED /* 2908.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2908.cpp; sourceTree = "<group>"; };
 		23DD2D9B2A93874C001EFDC1 /* 10811.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10811.cpp; sourceTree = "<group>"; };
 		23E083692A9B841800740FCD /* std_map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_map.cpp; sourceTree = "<group>"; };
 		23E965292A887845007278A5 /* 2557.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2557.cpp; sourceTree = "<group>"; usesTabs = 0; };
@@ -281,6 +284,9 @@
 				23B764172AA2FC9B00A2D612 /* 11654.cpp */,
 				23B764192AA2FD9500A2D612 /* 11720.cpp */,
 				23B7641B2AA3078900A2D612 /* 10809.cpp */,
+				23C0FD4F2AA35EB600DDEDED /* 2675.cpp */,
+				23C0FD512AA3646D00DDEDED /* 1152.cpp */,
+				23C0FD532AA36AB500DDEDED /* 2908.cpp */,
 			);
 			name = "문자열";
 			path = "문자열";
