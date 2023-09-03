@@ -4,19 +4,37 @@ using namespace std;
 
 int main()
 {
+    int alphabat[26] = {0,};
     string str;
     cin >> str;
+    int cnt = 0;
     
-    string max;
     for (int i = 0; i < str.size(); i++){
-        if (str[i] >= 65 && str[i] <= 90)
-            str[i] = str[i];
+        int n = str[i];
+        if (n < 97)
+            alphabat[n - 65]++;
         else
-            continue;
+            alphabat[n - 97]++;
     }
-    max = *max_element(str.begin(), str.end());
-    cout << max << endl;
+    
+    int max = 0, max_idex = 0;
+    
+    for (int i = 0; i < 26; i++){
+        if (max < alphabat[i]){
+            max = alphabat[i];
+            max_idex = i;
+        }
+    }
+    
+    for (int i = 0; i < 26; i++){
+        if (max == alphabat[i])
+            cnt++;
+    }
+    if (cnt > 1){
+        cout << "?" << endl;
+    }
+    else
+        cout << (char)(max_idex + 65) << endl;
 }
 
 
-// 여기부터 다시 하기
