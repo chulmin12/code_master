@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23E1EDAA2AA4C91700420671 /* 2941.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23E1EDA92AA4C91700420671 /* 2941.cpp */; };
+		23D0B7732AA5A6B800986061 /* 25206.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23D0B7722AA5A6B800986061 /* 25206.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,6 +117,8 @@
 		23C0FD4F2AA35EB600DDEDED /* 2675.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2675.cpp; sourceTree = "<group>"; };
 		23C0FD512AA3646D00DDEDED /* 1152.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1152.cpp; sourceTree = "<group>"; };
 		23C0FD532AA36AB500DDEDED /* 2908.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2908.cpp; sourceTree = "<group>"; };
+		23D0B7702AA5974F00986061 /* 1316.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1316.cpp; sourceTree = "<group>"; };
+		23D0B7722AA5A6B800986061 /* 25206.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 25206.cpp; sourceTree = "<group>"; };
 		23DD2D9B2A93874C001EFDC1 /* 10811.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10811.cpp; sourceTree = "<group>"; };
 		23E083692A9B841800740FCD /* std_map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_map.cpp; sourceTree = "<group>"; };
 		23E1EDA92AA4C91700420671 /* 2941.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2941.cpp; sourceTree = "<group>"; };
@@ -213,6 +215,8 @@
 		235681F82AA431DC002F91DA /* 심화1 */ = {
 			isa = PBXGroup;
 			children = (
+				23D0B7702AA5974F00986061 /* 1316.cpp */,
+				23D0B7722AA5A6B800986061 /* 25206.cpp */,
 				235681F92AA43203002F91DA /* 25083.cpp */,
 				235681FB2AA43464002F91DA /* 3003.cpp */,
 				235681FD2AA437E7002F91DA /* 2444.cpp */,
@@ -468,7 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E1EDAA2AA4C91700420671 /* 2941.cpp in Sources */,
+				23D0B7732AA5A6B800986061 /* 25206.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
