@@ -9,14 +9,14 @@ int main()
     string str;
     double score = 0;
     string grade;
-    int total = 0;
+    double total = 0;
     vector<double> sum;
     double result = 0;
     
     for (int i = 0; i < 20; i++){
         cin >> str >> score >> grade;
         if (grade != "P"){
-            total++;
+            total += score;
             if (grade == "A+")
                 sum.push_back(score * 4.5);
             else if (grade == "A0")
@@ -38,17 +38,15 @@ int main()
         }
     }
     
-    
+
 //    for (int i = 0; i < sum.size(); i++){
 //        cout << sum[i] << ", ";
 //    }
-    
-    result = accumulate(sum.begin(), sum.end(), 0);
-    //cout << result << endl;
+    result = accumulate(sum.begin(), sum.end(), 0.0);
+   // cout << result << endl;
     cout << fixed;
     cout.precision(6);
 
 
     cout << result / total << endl;
-
 }
