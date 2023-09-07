@@ -6,6 +6,11 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		237FE51C2AAA06A300C62B87 /* tictactoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237FE51B2AAA06A300C62B87 /* tictactoe.cpp */; };
+		23A1327B2AA9AA5400DBF072 /* 2745.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23A1327A2AA9AA5400DBF072 /* 2745.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		23BCEDEC2A886F1D003AD99F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -83,6 +88,7 @@
 		23626C012A9A52CC0080589C /* search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
 		236F52642A8D04970056A196 /* reverse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse.cpp; sourceTree = "<group>"; };
 		236F52682A8D09F60056A196 /* reverse1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse1.cpp; sourceTree = "<group>"; };
+		237FE51B2AAA06A300C62B87 /* tictactoe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tictactoe.cpp; sourceTree = "<group>"; };
 		23852A612A9AFFEF00475E6F /* traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = traversal.cpp; sourceTree = "<group>"; };
 		23852A632A9B11E000475E6F /* bst1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bst1.cpp; sourceTree = "<group>"; };
 		23852A652A9B203800475E6F /* bst2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bst2.cpp; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 		23918B362A8B8D10008A5BF8 /* 10818.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10818.cpp; sourceTree = "<group>"; };
 		2398031A2AA224F10013496B /* fibo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fibo.cpp; sourceTree = "<group>"; };
 		2398031C2AA2306A0013496B /* mincost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mincost.cpp; sourceTree = "<group>"; };
+		23A1327A2AA9AA5400DBF072 /* 2745.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2745.cpp; sourceTree = "<group>"; };
 		23AA9AD52AA17AD100AFD491 /* 1546.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1546.cpp; sourceTree = "<group>"; };
 		23AA9AD92AA1AD6E00AFD491 /* 27866.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 27866.cpp; sourceTree = "<group>"; };
 		23AA9ADB2AA1BA4F00AFD491 /* 2743.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2743.cpp; sourceTree = "<group>"; };
@@ -240,6 +247,15 @@
 			path = "해싱과 해시 함수";
 			sourceTree = "<group>";
 		};
+		237FE51A2AAA068000C62B87 /* 틱택톡 */ = {
+			isa = PBXGroup;
+			children = (
+				237FE51B2AAA06A300C62B87 /* tictactoe.cpp */,
+			);
+			name = "틱택톡";
+			path = "틱택톡";
+			sourceTree = "<group>";
+		};
 		23852A602A9AFFC300475E6F /* 트리 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +321,15 @@
 			path = "동적 계획법";
 			sourceTree = "<group>";
 		};
+		23A132792AA9AA3C00DBF072 /* 일반 수학1 */ = {
+			isa = PBXGroup;
+			children = (
+				23A1327A2AA9AA5400DBF072 /* 2745.cpp */,
+			);
+			name = "일반 수학1";
+			path = "일반 수학1";
+			sourceTree = "<group>";
+		};
 		23AA9AD82AA1AD5700AFD491 /* 문자열 */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +380,7 @@
 		23BCEDE52A886F1D003AD99F = {
 			isa = PBXGroup;
 			children = (
+				237FE51A2AAA068000C62B87 /* 틱택톡 */,
 				23B21B7D2A89011D00F6A4DB /* 자료구조와 알고리즘 */,
 				23BCEDF02A886F1D003AD99F /* code_master */,
 				23BCEDEF2A886F1D003AD99F /* Products */,
@@ -372,6 +398,7 @@
 		23BCEDF02A886F1D003AD99F /* code_master */ = {
 			isa = PBXGroup;
 			children = (
+				23A132792AA9AA3C00DBF072 /* 일반 수학1 */,
 				23D0B7742AA5B5D600986061 /* 2차원 배열 */,
 				235681F82AA431DC002F91DA /* 심화1 */,
 				23AA9AD82AA1AD5700AFD491 /* 문자열 */,
@@ -485,6 +512,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237FE51C2AAA06A300C62B87 /* tictactoe.cpp in Sources */,
+				23A1327B2AA9AA5400DBF072 /* 2745.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
