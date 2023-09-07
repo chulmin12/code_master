@@ -9,10 +9,11 @@ int main()
     for (int i = 0; i < 5; i++){
         cin >> arr[i];
     }
-    
-    for (int i = 0; i < 5; i++){
-        for (int j = 0; arr[i][j] != '\0'; j++){
-            cout << arr[i][j] << " ";
+
+    for (int j = 0; j < 15; j++){
+        for (int i = 0; i < 5; i++){
+            if (arr[i][j] != '\0')
+                cout << arr[i][j];
         }
     }
 
