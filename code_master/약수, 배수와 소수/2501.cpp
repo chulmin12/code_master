@@ -1,17 +1,20 @@
 #include <iostream>
-// 여기부터 다시
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 
 int main()
 {
-    int p, q;
-    cin >> p >> q;
+    int p, k = 0;
+    cin >> p >> k;
     
-    for (int i = 1; i <= q; i++){
+    vector<int> q;
+    
+    for (int i = 1; i <= p; i++){
         if (p % i == 0){
-                cout << i << endl;
+            q.push_back(i);
         }
-        eles
-            
     }
+    cout << q[k - 1] << endl;
 }
