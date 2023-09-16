@@ -6,24 +6,24 @@ int main()
 {
     int a, b, c;
 
-    while(true){
+    while (true) {
         cin >> a >> b >> c;
         
         if ((a + b + c) == 0)
             return 0;
         
-        else if (a == b && b == c){
+        if (a == b && b == c) {
             cout << "Equilateral" << endl;
         }
-        
-        else if (a == b || a == c || b == c){
-            cout << "lsosceles" << endl;
+        // 여기 부분에서 많이 틀렸다,,,,
+        else if (a + b <= c || a + c <= b || b + c <= a) {
+            cout << "Invalid" << endl;
         }
-        
-        else if (a != b && a != c && b != c){
+        else if (a == b || a == c || b == c) {
+            cout << "Isosceles" << endl;
+        }
+        else {
             cout << "Scalene" << endl;
         }
-        else if (a > b+c || b >= c + a || c >= a + b)
-            cout << "Invaild" << endl;
     }
 }
