@@ -19,17 +19,17 @@ int main()
     
     sort(cards.begin(),cards.end());
     
-    int sum = 0;
-    int i = N - 1;
-    while(true){
-        sum = cards[i] + cards[i - 1] + cards[i - 2];
-        if (sum > M){
-            i--;
-        }
-        else{
-            cout << sum << endl;
-            break;
+    int max_sum = 0;
+    int res = 0;
+    
+    for (int i = N - 1; i > 1; i--){
+        for (int j = i - 1; j > 0; j--){
+            for (int k = j - 1; k >= 0; k--){
+                max_sum = cards[i] + cards[j] + cards[k];
+                if (max_sum <= M && max_sum > res)
+                    res = max_sum;
+            }
         }
     }
-    
+    cout << res << endl;
 }
