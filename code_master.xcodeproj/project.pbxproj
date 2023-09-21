@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		232E46772ABB27CB00E04B1F /* 2231.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23DE720A2AB8704200A247FB /* 2231.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		23BCEDEC2A886F1D003AD99F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -126,6 +122,8 @@
 		23B7B8922AA2F50600C7B137 /* triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
 		23BB98982AA956E0006A9DDB /* 2563.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2563.cpp; sourceTree = "<group>"; };
 		23BCEDEE2A886F1D003AD99F /* code_master */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code_master; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BEF6662ABC114500BC6987 /* 19532.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 19532.cpp; sourceTree = "<group>"; };
+		23BEF6682ABC145C00BC6987 /* 1018.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1018.cpp; sourceTree = "<group>"; };
 		23C0FD4F2AA35EB600DDEDED /* 2675.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2675.cpp; sourceTree = "<group>"; };
 		23C0FD512AA3646D00DDEDED /* 1152.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1152.cpp; sourceTree = "<group>"; };
 		23C0FD532AA36AB500DDEDED /* 2908.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2908.cpp; sourceTree = "<group>"; };
@@ -261,6 +259,8 @@
 			children = (
 				2352919F2AB554850089001C /* 2798.cpp */,
 				23DE720A2AB8704200A247FB /* 2231.cpp */,
+				23BEF6662ABC114500BC6987 /* 19532.cpp */,
+				23BEF6682ABC145C00BC6987 /* 1018.cpp */,
 			);
 			name = "브루트 포스";
 			path = "브루트 포스";
@@ -582,7 +582,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232E46772ABB27CB00E04B1F /* 2231.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
