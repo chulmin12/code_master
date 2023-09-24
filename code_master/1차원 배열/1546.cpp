@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <numeric>
-// 수정
+
 using namespace std;
 
 int main()
@@ -19,12 +19,11 @@ int main()
     }
     int max_val = *max_element(sum.begin(), sum.end());
     
-    for (int i = 0; i < n; i++){
-        sum[i] = sum[i] * 100 / max_val;
-    }
-    avg = accumulate(sum.begin(), sum.end(), 0) / static_cast<double>(n);
+    avg = accumulate(sum.begin(), sum.end(), 0);
+    
+    double result = (avg / max_val * 100) / n;
     
     cout << fixed;
     cout.precision(2);
-    cout << avg << endl;
+    cout << result << endl;
 }

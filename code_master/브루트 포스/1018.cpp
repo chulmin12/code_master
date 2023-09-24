@@ -28,6 +28,7 @@ string BW[8] = {
     "WBWBWBWB"
 };
 
+//arr[][51]로 설정한 이유는 함수가 어떤 크기의 2차워 배열이 와도 유연하게 설계하기 위함
 int wb_first(int x, int y, char arr[][51]) {
     int cnt = 0;
     for (int i = 0; i < 8; i++) {
