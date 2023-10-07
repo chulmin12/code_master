@@ -107,7 +107,6 @@
 		2398031A2AA224F10013496B /* fibo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fibo.cpp; sourceTree = "<group>"; };
 		2398031C2AA2306A0013496B /* mincost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mincost.cpp; sourceTree = "<group>"; };
 		23A1327A2AA9AA5400DBF072 /* 2745.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2745.cpp; sourceTree = "<group>"; };
-		23A294282AD14A19008D0EEC /* 코딩 테스트 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "코딩 테스트"; sourceTree = "<group>"; };
 		23AA9AD52AA17AD100AFD491 /* 1546.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1546.cpp; sourceTree = "<group>"; };
 		23AA9AD92AA1AD6E00AFD491 /* 27866.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 27866.cpp; sourceTree = "<group>"; };
 		23AA9ADB2AA1BA4F00AFD491 /* 2743.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2743.cpp; sourceTree = "<group>"; };
@@ -434,7 +433,6 @@
 		23BCEDE52A886F1D003AD99F = {
 			isa = PBXGroup;
 			children = (
-				23A294282AD14A19008D0EEC /* 코딩 테스트 */,
 				237FE51A2AAA068000C62B87 /* 틱택톡 */,
 				23B21B7D2A89011D00F6A4DB /* 자료구조와 알고리즘 */,
 				23BCEDF02A886F1D003AD99F /* code_master */,
